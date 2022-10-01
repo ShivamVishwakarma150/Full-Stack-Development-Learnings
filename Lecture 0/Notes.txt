@@ -1,0 +1,68 @@
+Web pages :-
+------------
+Anything which can be viewed into your browser.
+Eg: HTML
+
+Web Sites:
+----------
+Mutliple webpages is used to combine to make big websites.
+
+Web Server:-
+------------
+There are servers which listen to a particular request send by the user and they responde to that perticulcar request in an appropriate manner.
+
+Search Engine
+-------------
+Its also a website only.
+There is indexing of a particular webstie and using that index we can search our content.
+it is use as crawler .
+
+Google Adsense :- use to fetch adds to your website and give you money according to that.
+for that google fetch/crawl your whole website and it will check ki app koi copyright wali chij to nhi utha li hai agar aisa hoga to wo approval nhi dega account ko.
+
+and it also give suggesstion according to that websites.it helps to optimized user experience.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Client Side
+-----------
+HTML,CSS,JS
+
+Server Side
+-----------
+Node,Express,PHP,MYSQL,Django
+
+HTML
+----
+It helps to provide structure of our web page.
+like skeleton of a human body.
+
+CSS
+---
+providing skin to skeleton and adding hair to skeleton like that skin is provided to html using CSS.
+
+JS
+---
+Brain of Skeleton is provided to JS.
+JS is helps to provide interactivity of our webpage.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Static website
+---------------
+All HTML content is created and saved on the server.
+
+
+Dynamic website
+--------------
+Content is generated on Demand for each user.
+
+
+Responsive website
+-------------------
+React to uer according to his screen size.
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

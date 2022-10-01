@@ -1,0 +1,255 @@
+HTML
+----
+It is Markup Landuage not Programming language.
+HTML :- Hyper Text Markup Language
+Created By :- Tim Burner Li at CERN
+
+
+In HTML we have elements and we called them as tags.
+
+    Opening Tag                             Closing Tag
+<ElementName/Tag>.... Write Something Here </ElementName>
+
+<!DOCTYPE html> : its specifies that we are using latest version of HTML that is HTML5.
+
+<html></html>: It is root Element.Iske andar hi sara further tag use karke ham document banate hain.
+
+<head></head>: It is also a html element jisko app user se hide karna chhate ho ie. css/js ko add karna,title set karna Page ka.
+
+<title></title> : for setting the title of webpage
+
+<body></body> : iske andar jo bhi likhenge wo viewport par dikhegi mtlb web page par dikhegi.
+
+<!-- This is Comment --> : It is Basically HTML Comment .
+
+Headers in HTML
+--------------
+it is use to create heading in HTML.
+Depending on font size we have 6 types of Heading.
+<h1>,<h2>,<h3>,<h4>,<h5>,<h6>
+
+eg of heading
+-------------
+<h1>This is h1 </h1>
+<h2>This is h2 </h2>
+<h3>This is h3 </h3>
+<h4>This is h4 </h4>
+<h5>This is h5 </h5>
+<h6>This is h6 </h6>
+
+
+Paragrph Tag
+-----------
+This is basically use for writing whole paragraph on weboage.
+eg:
+<p> yusdjs sdsad sada ads dsd asd sadasd 
+adas sd asd as dsadsad sdsad sdas </p>
+
+Elements
+--------
+Elements are basically are two types.
+1) Block Element 2)Inline element
+
+1) Block :- Block is basically stands for division it is use for division between content.
+
+eg:
+1) div tag : - it is spread on whole viewport it is not allow to comes any element align with it. it is blocking the whole width.it is pushing the element to next line.
+
+2) Inline Element
+1) span tag : it is not blocking the whole width.it is not pushing the content in next line.we are using span to change color or some other properties for selected text.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Strong tag :- it is use for warnings to user.or to show so that it is very important then for that we use strong tag.it indeicates that something very urgent.
+eg: <strong> This is Warning </strong>
+
+<b> tag : - It is use for only highlighting purpose.only draw to attention for the user.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+<em> tag :- em stands for emphasis. em looks like italic.
+it is use for emphasize something .
+
+<i> tag :- Basically used for normal itallic word it does not indecate any meaning.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ 
+<hr> tag : it is basically gives us separation using a single line.
+
+If we want to print whole tags itelft on webpage then we can use html entities for it.
+it is basically special code using which we can write these symbols.
+
+eg : &equals; : =
+     &copy; : copyright symbol
+     &quot; : "
+     &nbsp; : for spaces
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Lists in HTML
+--------------
+
+
+There are two types of list :-
+1) Unordered List <ul> : No order is given
+2) Ordered List <ol> : We can specify the order
+
+we can add list items using <li> tag in <ul> or <ol> both.
+
+Attribute : type = default('disc') for <ul>
+
+Attribute : type = default('1') ('1','a','A','i','I') for <ol>
+
+Attribute : reversed = default(false) it is used to reverse list number or sequence.
+
+Attribute : start = default('1') or we can set ('100') in ordered list. starting point is always numeric.
+
+
+            
+
+eg:
+<ul>
+    <li> MAngo</li>
+    <li> Banana</li>
+<ul>
+
+
+
+Attributes :- It is use to provide some extra information  to an element.
+in <ul> element we can specify attribute type='square' or type='circle' .
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If we want to write some peice of code as it is we are declared so we put it in like 
+<code>
+    <pre>
+        #include<iostream>
+        using namespace std;
+        int main(){
+            cout<<"Hello World";
+        }
+    </pre>
+</code>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<a> tag :- It is basically anchor tags.
+in this tag we write a url and it points to that url.
+Url could be 2 types 
+1) Relative
+2) Absolute
+
+<a href="">Connect Google</a>
+
+// Absolute Path
+<a href="https://google.com">Connect Google</a>
+
+by default target="_self"
+// If we set attribute target="_blank" then it is open in another browsing context or open in another tab.
+<a href="./page.html" target="_blank">Go to Another Page</a>
+
+
+href="./" -> Current Folder
+href="../" -> Previous Folder
+
+href="mailto:abc@gmail.com" -> for mailing someone
+href="tel:981271262" -> for calling options
+
+
+
+--------------------------------------------------------------------------
+
+
+if we want to jump on a special paragraph on samepage 
+
+<a href="#special">Click to Jump on para 12</a>
+
+<p id="special">dsdsd sad asd asd as dsa das as d sad asa d das d das das dsa d sad sad s dg fdaf dsgfe sa f s ffd sa fd v dd sa </p>
+
+-----------------------------------------------------------------------------
+
+
+if we want to go another page and in that page we go to special paragraph then
+<a href="./page.html#anotherSpecial">Click to Jump on para 12</a>
+
+-----------------------------------------------------------------------
+
+
+
+
+Learning about Input
+--------------------
+
+we use <input> tag for input.
+1st attribute of Input is type
+a) type="text" for inputing text
+b) type="password" for password
+c) type="email" for email
+d) type="date" for date input
+e) type="time" for time input
+f) type="file" for binary file/text file input
+g) type="number" for number input
+h) type="button" for button input
+i) type="submmit" for subm it input
+
+
+
+
+
+2nd attribute is placeholder
+eg) placeholder="Enter you email" 
+
+-------------------------------------------------------------------------------------------------
+
+
+<textarea> for larger text input
+    Attributes
+        1) rows 
+        2) cols
+rows and cols attribute use for specify size of textarea.
+
+-------------------------------------------------------------------------------------------------
+
+we can make radio buttons also using type="radio" . and if we want like user only can select one of those three like male female and other then we can give it another attribute name="gender" so now we can select only one radio at a time.
+
+
+
+Dropdown in HTML
+----------------
+
+we make it using select and option tags.
+
+<select name="" id="">
+    <option> Months </option>
+    <option> Jan </option>
+    <option> Feb </option>
+    <option> March </option>
+    <option> April </option>
+    <option> May </option>
+    <option> June </option>
+</select>
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+<label> tag :- using this tag we can connect text as well as input box.
+
+
+Now in this way we bind the text male with input type radio.when we click on male it cheaked its corresponding radio.
+
+<label for="male">Male</label>
+<input type="radio" name="gender" id="male">
+
+we have to make sure that in label tag for="male" should also be equal to id="male" in input tag.
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+2:23:30
