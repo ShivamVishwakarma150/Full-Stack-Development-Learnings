@@ -196,6 +196,8 @@ f) type="file" for binary file/text file input
 g) type="number" for number input
 h) type="button" for button input
 i) type="submmit" for subm it input
+j) type="tel" for telephone number
+
 
 
 
@@ -203,6 +205,8 @@ i) type="submmit" for subm it input
 
 2nd attribute is placeholder
 eg) placeholder="Enter you email" 
+
+3rd) attribute is required : it is used for like when we want functionality like when we want that user cannot leave empty that field where we place required attribute inside input tag.
 
 -------------------------------------------------------------------------------------------------
 
@@ -246,10 +250,33 @@ Now in this way we bind the text male with input type radio.when we click on mal
 
 we have to make sure that in label tag for="male" should also be equal to id="male" in input tag.
 
+<label for"tel" maxlenght="10"> Telephone Number </label> 
 
 ---------------------------------------------------------------------------------------------------------------------------
 
+<button> tag : we can directly make button using button tag.
+
+<form> tag : it is used to create form in this tag we use input tag or button tag etc...
+
+Attributes of form tag : 1) action
+                         2) method
+
+http://youtube.com?--------
+
+here ------- is basically query  string parameter.
+it indicates basically a GET  request.
+
+
+action attribute : - it sends the form data to particular URI or server or code.
+
+method attribute : it is basically represents types of request like GET,POST,PUT,PATCH.
+
+
+<fieldset> tag : it is basically used for give border for its contained element.
+
+<legend> tag : it is used for identity to that border which is make by fieldset basically used to group things ans used inside fieldset.
 
 
 
-2:23:30 bb
+
+
