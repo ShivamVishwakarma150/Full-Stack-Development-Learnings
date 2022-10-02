@@ -1,0 +1,79 @@
+<img> tag : used to embbed images on ouw websites.it is inline element.
+attributes : 1) src :- dir of image ie url/adress
+             
+             2) alt :- its shows when image not load it contains basically description or image.
+
+             3) width :- Give some width to image
+             4) height :- Give some height to image
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<audio> tag : it is used to add audio on webpages.
+attributes : 1) controls : it shows audio with all controls like play/pause
+             2) autoplay : it plays automaically when page is loaded.
+             3) loop : it plays again and again.
+             4) src : it is used to give url/address of audio.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<video> tag : it is used to add video on webpages.
+attributes : 1) controls : it shows video with all controls like play/pause
+             2) autoplay : it plays automaically when page is loaded.
+             3) loop : it plays again and again.
+             4) src : it is used to give url/address of audio.
+More about it go to MDN.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<iframe> tag : it is used to connect any wevsite links or video links to it and we can provide height and width according to our rquirmens.
+
+<iframe src="http://codingblocks.com" frameborder="2" width="500" height="600">
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+HTML Semantics
+--------------
+
+Semantics : Something which is meaning full in programming.in programming semantics refers to the meaning of piece of code .it is used for SEO also .
+
+<nav> tag : used to make navigation section.
+
+<main> tag : used for main content.
+
+<section> tag : which is not reapet at another pleace.
+
+<article> tag : it can repeat at another place also.
+
+<aside> tag : it is use when we want our content to one side of our whole page it is provide kind of meaning ki iske andar jo bhi hoga wo ek side me hoga.
+
+
+<figure> tag : used to palce image inside this.
+for providing caption to it we use <figurecaption> tag.
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+CSS :- Cascading Style Sheets
+-----------------------------
+
+Three ways to style normal html page using css.
+1)inline : used inside any html elements as its attribute. 
+eg: <h1 style="color:red">Shivam</h1>
+but it is not a good to use whan we want to apply color="red" to 10 hteml elements then hamko har jagah jakar ek ek ko change karna hoga.
+
+2)internal : we use it in <head> and inside <style> tag .and wha par ham selectors ka use karke sare paragraph ko ek sath property or styling de skte hain.
+<head>
+    <style>
+        h1{
+            color:"red"
+        }
+    </style>
+</head>
+
+
+3)external
+
+
+ 
