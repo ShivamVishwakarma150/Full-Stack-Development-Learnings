@@ -277,6 +277,53 @@ method attribute : it is basically represents types of request like GET,POST,PUT
 <legend> tag : it is used for identity to that border which is make by fieldset basically used to group things ans used inside fieldset.
 
 
+Tables In HTML
+--------------
+
+<table> tag : use to create table
+attribute : border="1" then it show thin border around column and rows.
+
+<thead> tag :- used inside table Tag
+<tbody> tag :- used inside table tag
+
+<thead> adjacent to <tbody>
+
+inside <thead> we have 
+<tr></tr>
+and then
+
+<tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+</tr>
 
 
+<thead>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+</thead>
 
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+</table>
+
+rowspan attribute :- it is use to merge rows/columns into one unit basically it spread cells.
+
+for merging two rows
+eg:- <tr rowspan=2></tr> 
+
+for merging two cols
+eg:- <td colspan=2></td>
