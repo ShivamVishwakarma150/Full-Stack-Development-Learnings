@@ -75,4 +75,4 @@ but it is not a good to use whan we want to apply color="red" to 10 hteml elemen
 
 3)external
 
-we can use external css.for that we have to use a separate file for css name file_name.css eg:- style.css and we have to place in the same directory where our index.html file.
+we can use external css.for that we have to use a separate file for css name file_name.css eg:- style.css and we have to place in the same directory where our index.html file..
