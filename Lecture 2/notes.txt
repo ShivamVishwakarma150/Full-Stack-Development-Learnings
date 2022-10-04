@@ -76,3 +76,19 @@ but it is not a good to use whan we want to apply color="red" to 10 hteml elemen
 3)external
 
 we can use external css.for that we have to use a separate file for css name file_name.css eg:- style.css and we have to place in the same directory where our index.html file..
+
+CSS Combinators
+---------------
+A combinator is something that explains the relationship between the selectors.
+
+A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.
+
+There are four different combinators in CSS:
+
+1. descendant selector (space)
+2. child selector (>)
+3. adjacent sibling selector (+)
+4. general sibling selector (~)
+
+
+

@@ -1,0 +1,14 @@
+.headd{
+    color: black;
+    text-align: center;
+    border:2px solid black;
+    background-color: yellowgreen;
+    margin:0px;
+    
+}
+.tb{
+    background-color: antiquewhite;
+}
+td,th{
+    padding: 10px;
+}
