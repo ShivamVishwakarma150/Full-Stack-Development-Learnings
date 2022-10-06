@@ -9,8 +9,8 @@
 
 let minimist=require("minimist");
 let args=minimist(process.argv);
-console.log(args);
-//node "/Users/tamannaverma/Documents/JS/DevClass3/3.FirstExpWithDependency.js" -x 4 -y 7 
+// console.log(args);
+
 //node 3.FirstExpWithDependency.js --name "Sumeet Malik" --age 40 
 // minimist x aur y ko args ki ek property bnadega like args.x and args.y
 parseInt(args.age);//vese yha parseInt likhne ki jroorat nhi thi ,minimist automatically parse krke deta h 
