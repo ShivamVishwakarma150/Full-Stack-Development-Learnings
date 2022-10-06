@@ -1,0 +1,16 @@
+Lec 1,2,3
+---------
+
+// After Completing this course we can go with 5 roles.
+frontend Developer
+Backend Developer
+Full Stack Developer
+Devops Engineer
+
+In this course we Learn
+
+1.Java Script
+2.Browser
+3.React
+4.Backend
+5.Cloud
