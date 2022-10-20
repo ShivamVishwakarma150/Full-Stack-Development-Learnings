@@ -1,0 +1,19 @@
+{
+  "name": "dev_class_7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Project1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "excel4node": "^1.8.0",
+    "jsdom": "^20.0.1",
+    "minimist": "^1.2.6",
+    "pdf-lib": "^1.17.1"
+  }
+}

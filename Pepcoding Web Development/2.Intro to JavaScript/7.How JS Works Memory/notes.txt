@@ -1,0 +1,34 @@
+Jo bhi code hamare pass hota hai wo ek execution context ke andar chalta hai.
+
+
+Excecution context ek wrapper hota hai jiske andar JS Saari chije supply karti hain.
+
+EC :- 2 chije hoti hain isme
+
+// Refer 2.PNG
+
+1. Global Object : just provide env
+2. this : 
+
+
+Global execution Context 
+------------------------
+
+Global
+------
+In CASE Of NODE : Global 
+In CASE Of Browser : Window
+
+this
+----
+In CASE of Node : empty object {}
+In CASE of Browser : window object
+
+Now Creation Phase Come ( CODE )
+-----------------------
+1 :- Memory allocation hota hai and undefined milta hai isi ko hoisting bolte hain
+
+2 :- Next functions comes into the picture
+    if function statement hain unke liye Memory pahle hi allocate ho jati hai puri ki puri heap me and uska reference stack me hota hai
+
+    

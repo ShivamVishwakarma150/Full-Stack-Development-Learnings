@@ -1,0 +1,33 @@
+Javascript Runtime Environment
+-------------------------------
+It is comes with 
+1) Browser
+2) NodeJS
+
+Alag alag browser alag alag JS Engine Implement karte hain
+
+Work of JS :- It provides logic in an environment
+Features are provided by Environment.
+
+Story of JavaScript:-
+--------------------
+
+Created By Brendan Eich or Netscape in just 10 days.
+
+syntax -> Java 
+OOPS -> Self
+Functional Programming -> Schema
+
+LiveScript -> JavaScript -> ECMA International ( ECMA Script )
+
+TC-39 Commity decide karti hai ki language me kya -2 feature hona chahiye
+
+Simple JavaScript -> Vanilla JavaScript
+
+
+NodeJS -> Environment Where our JS Codes can run...
+
+
+
+
+
