@@ -1,9 +1,9 @@
-function greet(){
-    console.log("Hello");
-}
+// function greet(){
+//     console.log("Hello");
+// }
 
-// greet();
+// // greet();
 
-setTimeout(greet,2000);
+// setTimeout(greet,2000);
 
-console.log('Byeeeee');
+// console.log('Byeeeee');
