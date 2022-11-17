@@ -1,5 +1,6 @@
 const fs = require('fs');
 
+//  promise version of file system module
 let fileRead1 = fs.promises.readFile('./f1.txt');
 // console.log(fileRead1);
 
@@ -8,11 +9,11 @@ let fileRead3 = fs.promises.readFile('./f3.txt');
 
 // It Executes Parallely
 fileRead1.then((data)=>{
-    console.log('data ->',data+"f1");
+    console.log('data ->',data+" f1");
 });
 fileRead2.then((data)=>{
-    console.log('data ->',data+"f2");
+    console.log('data ->',data+" f2");
 });
 fileRead3.then((data)=>{
-    console.log('data ->',data+"f3");
+    console.log('data ->',data+" f3");
 });
