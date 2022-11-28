@@ -1,0 +1,16 @@
+IP Address :- each computer has their unique ip address 
+
+DNS(Website_name : ip_address)
+
+ref 1.PNG for more clarity
+
+localhost: ek domain hota hai ie pepcoding.com 
+localhost -> pointing to your own computer 
+ref to 2.PNG for more clarity
+
+
+
+port : Doors in a computer 
+for eg: we use skype,discord,whatsapp web for for each application usko ek port de diya jata haio usko ek darwaja de diya jata hai spke darwaje ka ek unique number hota hai wo number portNumber hota hai. (REF : --> 3000).
+
+

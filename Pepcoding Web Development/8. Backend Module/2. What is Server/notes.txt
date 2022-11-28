@@ -1,0 +1,22 @@
+All Websites are powered by server.
+1. S/W Server -> Protocols -> i.e. HTTP
+2. Hardware Server (HardDsk) -> Database
+
+
+
+Now ref to 1.png
+
+Request Response cycle follow some rules those rules is called HTTP Protocols.
+
+
+// Benefit of Server ---> Ref to 2.PNG
+
+
+
+
+
+
+
+
+
+
