@@ -1,0 +1,28 @@
+Status Code tells us what are the things are happens behind the scene.
+
+Status code :- it is a short massage to browser(client)
+                in that massage we are getting info about behind the scene.
+                usko dekhne ke liye hame chrome me developer tab me network tab me dikega
+                we have 500 types of status code.
+
+1) 100 - 199 -> Information Purposes
+2) 200 - 299 -> Success 
+3) 300 - 399 -> redirect -> temp/permanent 
+4) 400 - 499 -> client side error
+5) 500 - 599 -> server side Error i.e. Crash, ServerDown              
+
+
+Mostly Used
+-----------
+200 201
+301 308
+404 400
+502 500
+
+
+// User Defined Status Code
+600+
+it is note desired thing.. isko use nhi karne chhaiye
+
+Helps in Debugging.
+Helps in SEO
