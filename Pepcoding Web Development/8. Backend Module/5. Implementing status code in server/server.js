@@ -36,7 +36,7 @@ const server = http.createServer((req,res)=>{
             break;
         default:
             path+='/404.html';
-            // Working with status code
+            // Working wit h status code
             res.statusCode=404;
             break;
     };
