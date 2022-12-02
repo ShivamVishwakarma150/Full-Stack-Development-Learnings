@@ -1,0 +1,6 @@
+Node vs Express
+---------------
+
+Benefit of Express :-
+1) Syntax easy and simple
+2) read write also simple

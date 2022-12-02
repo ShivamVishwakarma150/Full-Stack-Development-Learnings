@@ -1,0 +1,8 @@
+NPM -> Node Package Manager (Open Source Community) Contains 3rd party Packages
+
+eg:- Express, Nodemon, Lodash
+
+NPM can install in 2 ways:
+1) Globally
+2) Locally
+
