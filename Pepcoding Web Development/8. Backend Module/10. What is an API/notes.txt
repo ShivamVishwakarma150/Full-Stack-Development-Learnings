@@ -1,0 +1,22 @@
+API -> Application Programmable Interface
+way to communicate between DB and software.
+Medium by which communication happens.
+Communication b/w multiple platform.
+Language Dependent.
+
+
+
+REST API :- Representational state transfer
+-----------
+
+API's follow some rules called REST API.
+
+rules
+-----
+1) Response should be same irrespective of request platform
+2) Routes should be named on the basis of nouns (Name, Place, Animal, Things)
+3) HTTP methods should be used for doing operation on these routes. (app.get, .post, .delete)
+4) Always in JSON formate
+5) Stateless 
+
+
