@@ -1,0 +1,13 @@
+Agenda
+------
+
+1) HTTP Methods
+2) PostMan / ThunderClient
+
+
+a) GET -> to get data
+b) POST -> to send data
+c) PATCH -> to update data
+d) DELETE -> to delete data
+
+post -> to send data frontend to backend

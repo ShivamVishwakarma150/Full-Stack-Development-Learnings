@@ -1,0 +1,15 @@
+1. parameters :- as it is DB me search krke data lekar aate hain
+
+-------------
+
+fb/com/:id
+here :id is a parameter
+
+/user/abhisek
+/user/jasbir
+
+
+2. Queries :- Uses for filtering
+----------
+
+amazon.in/iPhone?price=75555&color=red;
