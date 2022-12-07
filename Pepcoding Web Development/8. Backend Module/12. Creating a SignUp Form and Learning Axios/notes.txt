@@ -1,0 +1,5 @@
+Goal:- Create a signUp form -> index.html
+
+making post request then wo data backend par jayega fir ham us data ko print karwa kar dekhnege ki wo data shi aaya hai ki nhi aya hai.
+
+AXIOS use kerenge
