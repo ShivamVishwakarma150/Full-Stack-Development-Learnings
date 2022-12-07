@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="./style.css">
     <title>JIRA TICKET CLONE</title>
 </head>
@@ -28,7 +29,17 @@
     </div>
 
     <!-- Main Container -->
-    <div class="main-cont"></div>
+    <div class="main-cont">
+        <div class="ticket-cont">
+    <div class="ticket-color lightpink"></div>
+    <div class="ticket-id ">sample id</div>
+    <div class="task-area ">random text</div>
+        </div>
+        
+        <div class="ticket-lock">
+            <i class="fa-solid fa-lock"></i>
+        </div>
+    </div>
     
     
     <div class="modal-cont">
@@ -41,6 +52,7 @@
         </div>
         
     </div>
+    <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>

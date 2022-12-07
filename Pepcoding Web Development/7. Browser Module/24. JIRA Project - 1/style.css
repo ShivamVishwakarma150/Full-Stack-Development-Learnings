@@ -105,6 +105,9 @@ body{
     width: 55%;
 }
 
+.border{
+    border:5px solid #d1d8e0;
+}
 .ticket-cont{
     height: 10rem;
     width: 14rem;
@@ -114,8 +117,6 @@ body{
 
 .ticket-color{
     height:1rem;
-    background-color: lightpink;
-
 }
 .ticket-id{
     height:2rem;
@@ -126,7 +127,10 @@ body{
     height: calc( 100% - 1rem - 2rem );
     padding: 0.4rem;
 }
-
+.ticket-lock{
+    height: 2rem;
+    background-color: lightblue;
+}
 .main-cont{
     display: flex;
     flex-wrap: wrap;

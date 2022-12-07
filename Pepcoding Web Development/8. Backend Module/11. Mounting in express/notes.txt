@@ -1,0 +1,12 @@
+Mounting in express :-
+-----------------------
+
+/user -> isme alag alag methods lag rhe hain get,post
+
+app.use(_,cb); -> redundant syntax
+    |
+    |------> for reducing this we use mounting in smaller way
+1) Syntactically easy
+
+we create section by using this mounting.
+every section we can call it mini apps.
