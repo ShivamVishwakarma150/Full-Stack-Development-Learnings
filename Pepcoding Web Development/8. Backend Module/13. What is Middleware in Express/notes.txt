@@ -1,0 +1,39 @@
+Middleware -> Bich ka kuch kaam
+
+getUser wale function ko chalne se pahle kuch kaam ho 
+
+as soon as request comes in and before response leaves from the server jo bhi kaam bich me ho rha hota hai un sabhi ko Middleware function kahte hain...............
+
+All function that we see in backend that is called Middleware functions ...
+
+Types Of Middleware
+-------------------
+
+app.use(______) -> here ___ is also a global Middleware. -> ye chalega hi chalega
+
+app.get/post('/user',function()) -> here function is also Middleware and this kind of Middleware is called specific Middleware.
+
+
+Benefits
+--------
+
+1) Error Handling -> function(req,res,next,err)
+2) 404 Pages -> kuch na mile to ye wala function chale 
+3) Logger functions
+4) app.use(express.json()) -> is also a middle ware to parse JSON to js object.
+
+
+How to use 
+----------
+
+function(req,res,next) -> next for using Middleware function
+
+function(req,res,next){
+    ------
+    ------
+    ------
+
+    next(); // Middleware
+
+}
+
